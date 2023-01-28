@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: linear-gradient(To bottom,#BF9E80,#F2CAA7);
+  height: 100vh;
+}
+.visor{
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+}
+.corpo{
+  background-color: #042623;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 7px 5px 7px  #001311;
+}
+.botao{
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+  background-color: #194039;
+  border: none;
+  color: aliceblue;
+  margin: 1px;
+}
+.equal{
+  height: 106px;
+  width: 50px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+  background-color: #140e83;
+  border: none;
+  color: aliceblue;
+  margin: 1px;
+}
+#resultado{
+  background-color: aliceblue;
+  width: 207px;
+  height: 35px;
+  margin: 5px;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  text-align: right;
+}
+.botao:hover{
+  background-color: #3a9786;
+}
+.equal:hover{
+  background-color: #2419f3;
+}
+.table{
+  padding-top: 25px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+  color: #042623;
+  font-size: 25px;
+}
+a:link {
+  color: rgb(250, 248, 248);
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: rgb(154, 9, 21);
+}
